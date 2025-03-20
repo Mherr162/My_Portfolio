@@ -175,7 +175,9 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animated-element">
-            Transitioning from licensed electrician to software development with a strong academic foundation in computer science.
+          Highlighting my transition from a licensed electrician with extensive hands-on
+experience to a software developer with a robust academic foundation in
+computer science.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 animated-element">
