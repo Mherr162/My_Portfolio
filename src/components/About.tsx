@@ -4,7 +4,7 @@ import { Activity, Code, Server, Zap } from 'lucide-react';
 
 const About: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -22,11 +22,11 @@ const About: React.FC = () => {
       },
       { threshold: 0.1 }
     );
-    
+
     if (containerRef.current) {
       observer.observe(containerRef.current);
     }
-    
+
     return () => {
       if (containerRef.current) {
         observer.unobserve(containerRef.current);
@@ -65,9 +65,15 @@ const About: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-semibold mb-6 animated-element">
             From Electrician to Developer
           </h2>
-          <p className="text-muted-foreground animated-element">
-            Based in Miami, Florida, I'm transitioning from a licensed electrician to a software developer with a strong academic foundation. 
-            I hold a Bachelor of Arts in Computer Science from Florida International University and am passionate about creating efficient, user-friendly digital solutions.
+          <p className="text-muted-foreground animated-element text-justify mx-auto max-w-[800px] leading-relaxed">
+            <span className="block text-center font-semibold max-w-[800px] mx-auto">
+              Driven Problem Solver Moving from Electrical Engineering to Software Development
+            </span>
+            <br />
+            I am a Magna Cum Laude Computer Science graduate (Class of 2024, GPA: 3.7) embarking on an exciting journey from a hands-on profession as a licensed electrician to the dynamic world of software development. My expertise in electrical systems has helped me improve my analytical thinking, problem-solving ability, and attention to detail—all of which are vital talents in software development.
+            With a solid foundation in computer science fundamentals and software development, I am always honing my programming skills and aggressively looking for opportunities to apply my knowledge in real-world projects. I'm excited to apply my technical versatility, critical thinking, and dedication to continual learning in a software engineering career.
+
+            Let's talk—I'm eager to make an impact!
           </p>
         </div>
 
@@ -85,16 +91,16 @@ const About: React.FC = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-20 grid md:grid-cols-2 gap-12 items-center fade-up-stagger">
           <div className="animated-element">
             <h3 className="text-2xl font-semibold mb-4">My Journey</h3>
             <p className="text-muted-foreground mb-4">
-              My journey began in the electrical field, where I gained valuable hands-on experience installing and testing electrical machinery and systems. 
+              My journey began in the electrical field, where I gained valuable hands-on experience installing and testing electrical machinery and systems.
               This technical foundation provided me with strong problem-solving skills and attention to detail.
             </p>
             <p className="text-muted-foreground mb-4">
-              After completing my degree in Computer Science at Florida International University, I transitioned to software development, combining my 
+              After completing my degree in Computer Science at Florida International University, I transitioned to software development, combining my
               technical know-how with newly acquired programming skills.
             </p>
             <p className="text-muted-foreground">
@@ -102,7 +108,7 @@ const About: React.FC = () => {
               while continuously expanding my knowledge in modern web technologies.
             </p>
           </div>
-          
+
           <div className="animated-element">
             <div className="relative">
               <div className="aspect-video bg-secondary rounded-2xl overflow-hidden">
