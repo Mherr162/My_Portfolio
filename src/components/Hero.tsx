@@ -163,7 +163,7 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(99,102,241,0.15),transparent_40%)]"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(99,102,241,0.15),transparent_40%)]"></div>
       </div>
-      <div className='relative w-40 h-40 mx-auto'><img src="../public/me.jpeg" alt="me" className='absolute bottom-3 left-1/2 -translate-x-1/2 bg-black bg-opacity-50 text-white text-xs rounded-full'/>
+      <div className='relative w-40 h-40 mx-auto'><img src="./me.jpeg" alt="me" className='absolute bottom-3 left-1/2 -translate-x-1/2 bg-black bg-opacity-50 text-white text-xs rounded-full'/>
       </div>
       <div className="max-w-5xl w-full mx-auto px-4 sm:px-6 md:px-8 text-center z-10">
         <div className="fade-up-stagger">
