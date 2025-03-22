@@ -38,7 +38,7 @@ const About: React.FC = () => {
     {
       icon: <Code className="w-6 h-6 text-primary" />,
       title: 'Frontend Development',
-      description: 'Building responsive websites using WordPress, React, and modern CSS frameworks.'
+      description: 'I build responsive, user-friendly interfaces using React, Next.js, JavaScript, HTML, and CSS. My work focuses on performance, accessibility, and seamless user experiences. Notable projects include Amazing Minds Therapy’s website, where I optimized UI, integrated third-party services, and enhanced engagement.'
     },
     {
       icon: <Server className="w-6 h-6 text-primary" />,
